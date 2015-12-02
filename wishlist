@@ -1,0 +1,61 @@
+projectile
+
+
+# Project control
+= Have a project list with diffrent buffer
+= Name my projects
+= Speirate terminal
+= notes
+= Project sidebar
+  = Intrograte with git
+
+- projectile
+- projectile-helm
+- Perspective Mode
+- project-explorer
+
+# Frame
+= I want good looking side-numbers
+= current number highlight
+= header
+  = signal if modifed
+  = name
+  = git branch
+  = mode
+
+= footer/mini buffer
+  = Witch project
+  = good looking
+
+= Frame managment
+  = {need info}
+
+
+# zen coding
+= Good parntatisn control
+= auto complete
+= snipit mangment
+  = based on mode
+= good indent engine
+= good navitation
+
+- auto-complete
+- whitespace-cleanup-mode
+- smartparens
+- AutoIndentMode
+- vimish-fold
+- emmet
+- Ace Jump Mode
+
+
+# Cursor
+- have a linehighlight
+- have a number highlight
+- be _
+
+
+
+# shell
+= somerhing good
+
+# git

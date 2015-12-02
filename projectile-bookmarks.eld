@@ -1,0 +1,1 @@
+("~/drive/backup/school/webbutveckling-3/" "~/drive/projects/proposal_freedomain-radio.com/" "~/.emacs.d/")

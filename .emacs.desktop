@@ -1,0 +1,19 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Wed Dec  2 20:09:20 2015
+;; Desktop file format version 206
+;; Emacs version 24.5.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22110 60800 520881 0) (desktop . "206") "admin@Mateuszs-MBP" nil nil ((((font-backend mac-ct) (font . "-*-Source Code Pro-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (foreground-color . "#A4A5A6") (background-color . "#25292C") (mouse-color . "black") (border-color . "dark red") (screen-gamma) (line-spacing) (left-fringe . 0) (right-fringe . 0) (alpha) (tool-bar-lines . 0) (title) (fullscreen . fullscreen) (menu-bar-lines . 1) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#6ba4af") (environment) (frameset--id . "D0DA-105A-1C8D-814F") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . "Mac") (explicit-name) (tool-bar-position . top) (visibility . t) (height . 52) (width . 168) (left . 0) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 80) (min-pixel-width . 100) (min-pixel-height-ignore . 60) (min-pixel-width-ignore . 20) (min-pixel-height-safe . 20) (min-pixel-width-safe . 20)) leaf (pixel-width . 1680) (pixel-height . 1030) (total-width . 168) (total-height . 51) (normal-height . 1.0) (normal-width . 1.0) (buffer "*Packages*" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins 4) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 3239) (start . 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("index" "helm-projectile" "proj" "helm" "async" "helm"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/Users/admin/.emacs.d/lisp/init-misc.el" "/Users/admin/.emacs.d/wishlist" "/Users/admin/drive/backup/school/webbutveckling-3/projektplan.org"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
