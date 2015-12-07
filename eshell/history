@@ -1,0 +1,47 @@
+cd ..
+cd
+vagrant up
+vagrant status
+vagrant ssh
+cd ..
+ls
+ls -a
+ls -l
+cd elpa/
+ls
+ls -l
+rm -fr centered-window-mode-readme.txt
+rm -fr centered-window-mode-20140730.247/
+ls -l
+cd
+ls /l
+ls -l
+cd Downloads/
+pdflatex cv-us.tex
+open cv-us.pdf
+make
+ls -l
+cd ..
+vagrant up
+vagrant ssh
+vagrant status
+vagrant ssh
+cd ..
+git init
+echo "# webbutveckling-3" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/mateuszrybin/webbutveckling-3.git
+git push -u origin master
+git add .
+git commit -am "commit"
+git push -u origin master
+git pull
+git status
+git status
+git commit .
+git add .
+git pull
+git commit -am "commit"
+git pull

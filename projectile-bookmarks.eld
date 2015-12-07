@@ -1,1 +1,1 @@
-("~/drive/backup/school/webbutveckling-3/" "~/drive/projects/proposal_freedomain-radio.com/" "~/.emacs.d/")
+("~/drive/backup/school/webbutveckling-3/" "~/.emacs.d/" "~/drive/projects/active_bitcoin.org/" "~/drive/projects/proposal_freedomain-radio.com/" "/usr/local/")

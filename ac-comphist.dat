@@ -1,0 +1,102 @@
+((("font-family" .
+	 [0 0 0 0 0 0 0 0 0 1 0])
+	("monospace" .
+	 [0 0 0 0 0 0 0 0 1])
+	("618rem" .
+	 [1 0 0 0 0 0])
+	("F5F5F5" .
+	 [0 0 0 0 0 1])
+	("smartparens-mode" .
+	 [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+	("ace-window" .
+	 [0 0 0 0 0 0 0 0 0 1])
+	("$sql" .
+	 [1 0 0 0])
+	("$stmt-" .
+	 [1 0 0 0 0 0])
+	("$stmt" .
+	 [0 0 0 0 1])
+	("post_content" .
+	 [0 0 0 0 0 1 0 0 0 0 0 0])
+	("post_title" .
+	 [1 0 0 0 0 0 0 0 0 0])
+	("blog_posts" .
+	 [0 0 0 0 0 1 0 0 0 0])
+	("text" .
+	 [1 0 0 0])
+	("skriva" .
+	 [1 0 0 0 0 0])
+	("Du" .
+	 [2 0])
+	("else" .
+	 [2 0 0 0])
+	("die" .
+	 [3 0 0])
+	("$result" .
+	 [0 0 0 1 0 0 0])
+	("$post_content" .
+	 [0 0 0 1 0 2 1 0 1 0 0 0 0])
+	("$post_title" .
+	 [1 0 0 0 0 0 0 1 0 0 1])
+	("$query" .
+	 [0 0 1 1 0 0])
+	("webbutveckling" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+	("blog_create" .
+	 [0 0 0 0 1 0 0 0 0 0 0])
+	("submit" .
+	 [0 0 0 0 1 0])
+	("if" .
+	 [2 0])
+	("content" .
+	 [6 0 0 0 0 0 0])
+	("$_POST" .
+	 [0 0 3 0 0 0])
+	("title" .
+	 [7 0 0 0 0])
+	("$connection" .
+	 [1 0 1 2 0 0 0 0 0 0 0])
+	("global" .
+	 [1 0 0 0 0 0])
+	("function" .
+	 [0 0 0 0 0 1 0 0])
+	("project-explorer-toggle" .
+	 [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+	("helm-mini" .
+	 [1 0 0 0 0 0 0 0 0])
+	("provide" .
+	 [1 0 0 0 0 0 0])
+	("header" .
+	 [1 0 0 0 0 0])
+	("div" .
+	 [2 0 0])
+	("init-keybinding" .
+	 [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+	("projectile-persp-switch-project" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("require" .
+	 [0 0 0 0 1 0 0])
+	("project-explorer" .
+	 [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+	("windmove-down" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0])
+	("windmove-left" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 1])
+	("windmove-right" .
+	 [0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+	("windmove-up" .
+	 [0 0 0 0 0 0 0 0 0 0 1])
+	("init-web-mode" .
+	 [0 0 0 0 0 0 0 0 1 0 0 0 0])
+	("ace-jump-mode" .
+	 [0 0 0 0 1 0 0 0 0 0 0 0 0])
+	("ace-jump" .
+	 [1 0 0 0 0 0 0 0])
+	("ace-jump-line-mode" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+	("ace-jump-char-mode" .
+	 [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+	("setq-local" .
+	 [0 0 0 0 0 0 0 0 0 1])
+	("smartparens-global-" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])))

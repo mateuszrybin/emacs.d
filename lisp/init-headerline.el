@@ -1,7 +1,7 @@
 ;; use setq-default to set it for /all/ modes
 (setq-default header-line-format
   (list
-    " "
+    "   "
     ;; was this buffer modified since the last save?
     '(:eval (when (buffer-modified-p)
               (concat  (propertize "○ "

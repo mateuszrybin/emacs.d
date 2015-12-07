@@ -18,26 +18,32 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "init-web-mode.el"
+ "init-css.el"
  "init-misc.el"
+ "init.el"
+ "init-key-chord.el"
  "wishlist"
  "projektplan.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/admin/drive/projects/proposal_freedomain-radio.com/_includes/content/" (22109 17864 0 0) "book.scss" ".#book.scss" "../" "./")
+ ("/Users/admin/.emacs.d/" (22116 24703 0 0) "wishlist" "site-lisp/" "recentf" "README.md" "projectile.cache" "projectile-bookmarks.eld" "project-explorer-cache/" "lisp/" "init.el" "ido.last~" "ido.last" "eshell/" "elpa/" "auto-save-list/" "ac-comphist.dat" ".git/" ".emacs.desktop" ".DS_Store" "../" "./")
 
- ("/Users/admin/.emacs.d/lisp/" (22109 12815 0 0) "init-utils.el" "init-style.el" "init-site-lisp.el" "init-shortcuts.el" "init-org.el" "init-misc.el" "init-linum-mode.el" "init-ido.el" "init-helm.el" "init-headerline.el" "init-gui-frames.el" "init-elpa.el" "init-css.el" ".#init-misc.el" "../" "./")
+ ("/Users/admin/.emacs.d/lisp/" (22115 52978 0 0) "init-web-mode.el~" "init-web-mode.el" "init-utils.el" "init-style.el" "init-site-lisp.el" "init-shortcuts.el" "init-org.el" "init-misc.el" "init-linum-mode.el" "init-keybinding.el" "init-key-chord.el" "init-ido.el" "init-helm.el" "init-headerline.el" "init-gui-frames.el" "init-elpa.el" "init-css.el" "../" "./")
+
+ ("/Users/admin/drive/backup/school/webbutveckling-3/" (22117 18496 0 0) "Vagrantfile" "src/" "README.md" "provision.sh" "projektplan.tex" "projektplan.pdf" "projektplan.org" "file.html" "db_backup.sql" ".vagrant/" ".tex" ".git/" ".DS_Store" ".#projektplan.org" "../" "./")
+
+ ("/Users/admin/drive/backup/school/webbutveckling-3/src/" (22114 60558 0 0) "style.css" "index.php" "include/" "function.php" "font/" "create.php" ".#function.php" ".#create.php" "../" "./")
+
+ ("/Users/admin/" (22113 34133 0 0) "VirtualBox VMs/" "vagrant-local/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "iZombie.S02E07.720p.HDTV.X264-DIMENSION.mp4" "Google Drive/" "drive/" "Downloads/" "Documents/" "Desktop/" "Applications/" ".zshrc.swp" ".zshrc" ".zsh_history" ".zsh-update" ".zlogin" ".zcompdump-Mateusz’s MacBook Pro-5.0.8" ".zcompdump-Mateusz’s MacBook Pro-5.0.5" ".vv-update" ".vv-config" ".viminfo" ".vim/" ".vagrant.d/" ".v8flags.4.5.103.33.admin.json" ".Trash/" ".subversion/" ".ssh/" ".smex-items" ".slocdata/" ".rvm/" ".profile" ".oh-my-zsh/" ".npm/" ".node-gyp/" ".mkshrc" ".local/" ".irb-history" ".gitconfig" ".gem/" ".emacs.d/" ".DS_Store" ".config/" ".codeintel/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_profile" ".bash_history" ".atom/" "../" "./")
+
+ ("/Users/admin/drive/projects/proposal_freedomain-radio.com/_includes/content/" (22109 17864 0 0) "book.scss" ".#book.scss" "../" "./")
 
  ("/Users/admin/.emacs.d/elpa/" (22109 12598 0 0) "ido-ubiquitous-20151121.1415/" "ido-completing-read+-20151124.853/" "hlinum-20150621.1933/" "helm-core-20151123.253/" "helm-20151126.607/" "flx-ido-20151030.1112/" "flx-20151030.1112/" "async-20151123.256/" "archives/" "../" "./")
 
- ("/Users/admin/" (22109 12290 0 0) "VirtualBox VMs/" "vagrant-local/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "iZombie.S02E07.720p.HDTV.X264-DIMENSION.mp4" "Google Drive/" "drive/" "Downloads/" "Documents/" "Desktop/" "Applications/" ".zshrc.swp" ".zshrc" ".zsh_history" ".zsh-update" ".zlogin" ".zcompdump-Mateusz’s MacBook Pro-5.0.8" ".zcompdump-Mateusz’s MacBook Pro-5.0.5" ".vv-update" ".vv-config" ".viminfo" ".vim/" ".vagrant.d/" ".v8flags.4.5.103.33.admin.json" ".Trash/" ".subversion/" ".ssh/" ".smex-items" ".slocdata/" ".rvm/" ".profile" ".oh-my-zsh/" ".npm/" ".node-gyp/" ".mkshrc" ".local/" ".gitconfig" ".gem/" ".emacs.d/" ".DS_Store" ".config/" ".codeintel/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_profile" ".bash_history" ".atom/" "../" "./")
-
  ("/Users/admin/drive/org/" (22109 12579 0 0) "emacs.org" "current.org" "before.org" "after.org" "2015-plan.org" ".DS_Store" "../" "./")
-
- ("/Users/admin/.emacs.d/" (22107 13175 0 0) "wishlist" "site-lisp/" "README.md" "lisp/" "init.el" "ido.last" "elpa/" "auto-save-list/" ".git/" ".DS_Store" "../" "./")
-
- ("/Users/admin/drive/backup/school/webbutveckling-3/" (22107 13172 0 0) "Vagrantfile" "src/" "provision.sh" "projektplan.org" ".vagrant/" ".tex" ".git/" ".DS_Store" "../" "./")
 
  ("/Users/admin/drive/backup/school/" (22102 60962 0 0) "webbutveckling-3/" ".DS_Store" "../" "./")
 

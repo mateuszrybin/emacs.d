@@ -9,17 +9,23 @@
 (setq auto-save-default nil)
 
 ;; Save my seestion when close
-(desktop-save-mode 1)
+;;(desktop-save-mode 1)
 
 ;; Winner mode
 (when (fboundp 'winner-mode)
   (winner-mode 1))
 
 ;; wind mode change window with shift arrow keys
-(when (fboundp 'windmove-default-keybindings)
+(when (fboundp 'windmove-Default-keybindings)
   (windmove-default-keybindings))
 
-  ;; Turn on ido-mode
+;; Make windmove work in org-mode:
+(add-hook 'org-shiftup-final-hook 'windmove-up)
+(add-hook 'org-shiftleft-final-hook 'windmove-left)
+(add-hook 'org-shiftdown-final-hook 'windmove-down)
+(add-hook 'org-shiftright-final-hook 'windmove-right)
+
+;; Turn on ido-mode
   (require 'ido)
   (ido-mode t)
 ;; set tab width
@@ -28,6 +34,31 @@
 ;; Config for helm
 (require 'helm)
 (require 'helm-config)
+
+;; Create file when no find found in projecile helm find file
+(with-eval-after-load 'helm-projectile
+  (defvar helm-source-file-not-found
+    (helm-build-dummy-source
+        "Create file"
+      :action (lambda (cand) (find-file cand))))
+
+
+  (add-to-list 'helm-projectile-sources-list helm-source-file-not-found t))
+
+
+(setq helm-split-window-in-side-p t)
+
+(add-to-list 'display-buffer-alist
+             '("\\`\\*helm.*\\*\\'"
+               (display-buffer-in-side-window)
+               (inhibit-same-window . t)
+               (window-height . 0.4)))
+
+(setq helm-swoop-split-with-multiple-windows nil
+        helm-swoop-split-direction 'split-window-vertically
+        helm-swoop-split-window-function 'helm-default-display-buffer)
+
+
 
 ;; The default "C-x c" is quite close to "C-x C-c", which quits Emacs.
 ;; Changed to "C-c h". Note: We must set "C-c h" globally, because we
@@ -74,6 +105,21 @@
 ;;;; Frame/buffer ;;;;
 ;;;;;;;;;;;;;;;;;;;;;;
 
+;; active project explorer
+(require 'project-explorer)
+
+;; Active perspective mode
+(require 'perspective)
+(persp-mode)
+(require 'persp-projectile)
+
+
+;; Activate golden ratio
+(require 'golden-ratio)
+(golden-ratio-mode 1)
+(add-to-list 'golden-ratio-extra-commands 'ace-window)
+
+;; Change the buffer color
 (dolist (buf '(" *Echo Area 0*" " *Echo Area 1*"))
   (with-current-buffer (get-buffer buf)
     (make-local-variable 'face-remapping-alist)
@@ -112,6 +158,24 @@
 ;;;;;;;;;;;;;;;;;;;;
 
 (define-key global-map (kbd "RET") 'newline-and-indent)
+
+;; Active smart parh
+(require 'smartparens)
+(smartparens-global-mode t)
+(require 'smartparens-config)
+;; Active auto complate mode
+(ac-config-default)
+;; Add emmet
+(require 'emmet-mode)
+(add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
+(add-hook 'html-mode-hook 'emmet-mode)
+(add-hook 'css-mode-hook  'emmet-mode)
+
+;;
+;; ace jump mode major function
+;;
+(require 'ace-jump-mode)
+(define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
 
 ;;;;;;;;;;;;;;;;;
 ;;;; Cursor ;;;;;
