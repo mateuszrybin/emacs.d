@@ -6,11 +6,14 @@
  ("/Users/admin/drive/backup/school/" . "webbutveckling-3/")
  ("/Users/admin/drive/backup/" . "school/")
  ("/Users/admin/drive/" . "backup/")
- ("/Users/admin/" . ".emacs.d/")
+ ("/Users/admin/" . "drive/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/admin/drive/projects/active_ruby_mundolingo/test_app/config/"
+ "/Users/admin/drive/projects/active_ruby_mundolingo/mundolingo/app/controllers/"
+ "/Users/admin/drive/"
  "/Users/admin/.emacs.d/lisp/"
  "/Users/admin/.emacs.d/"
  "/Users/admin/drive/backup/school/webbutveckling-3/"
@@ -29,15 +32,36 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/admin/.emacs.d/" (22116 24703 0 0) "wishlist" "site-lisp/" "recentf" "README.md" "projectile.cache" "projectile-bookmarks.eld" "project-explorer-cache/" "lisp/" "init.el" "ido.last~" "ido.last" "eshell/" "elpa/" "auto-save-list/" "ac-comphist.dat" ".git/" ".emacs.desktop" ".DS_Store" "../" "./")
+ ("/Users/admin/drive/projects/active_ruby_mundolingo/mundolingo/app/controllers/" (22139 42716 0 0) "concerns/" "application_controller.rb" "admin_controller.rb" "../" "./")
 
- ("/Users/admin/.emacs.d/lisp/" (22115 52978 0 0) "init-web-mode.el~" "init-web-mode.el" "init-utils.el" "init-style.el" "init-site-lisp.el" "init-shortcuts.el" "init-org.el" "init-misc.el" "init-linum-mode.el" "init-keybinding.el" "init-key-chord.el" "init-ido.el" "init-helm.el" "init-headerline.el" "init-gui-frames.el" "init-elpa.el" "init-css.el" "../" "./")
+ ("/Users/admin/drive/projects/active_ruby_mundolingo/test_app/app/controllers/" (22139 42716 0 0) "welcome_controller.rb" "concerns/" "../" "./")
 
- ("/Users/admin/drive/backup/school/webbutveckling-3/" (22117 18496 0 0) "Vagrantfile" "src/" "README.md" "provision.sh" "projektplan.tex" "projektplan.pdf" "projektplan.org" "file.html" "db_backup.sql" ".vagrant/" ".tex" ".git/" ".DS_Store" ".#projektplan.org" "../" "./")
+ ("/Users/admin/.emacs.d/" (22139 42572 0 0) "wishlist" "url/" "site-lisp/" "recentf" "README.md" "projectile.cache" "projectile-bookmarks.eld" "project-explorer-cache/" "lisp/" "init.el" "ido.last" "eshell/" "elpa/" "comint.el.gz" "auto-save-list/" "ac-comphist.dat" ".git/" ".emacs.desktop" ".DS_Store" "../" "./")
+
+ ("/Users/admin/drive/projects/active_ruby_mundolingo/test_app/config/" (22139 42539 0 0) "secrets.yml" "routes.rb" "locales/" "initializers/" "environments/" "environment.rb" "database.yml" "boot.rb" "application.rb" "../" "./")
+
+ ("/Users/admin/drive/projects/active_ruby_mundolingo/test_app/app/views/welcome/" (22139 42162 0 0) "home.html.erb" "about.html.erb" "../" "./")
+
+ ("/Users/admin/drive/projects/active_ruby_mundolingo/test_app/app/views/" (22138 12583 0 0) "layouts/" "../" "./")
+
+ ("/Users/admin/drive/projects/active_ruby_mundolingo/test_app/app/views/layouts/" (22138 12583 0 0) "application.html.erb" "../" "./")
+
+ ("/Users/admin/drive/projects/active_ruby_mundolingo/mundolingo/app/views/" (22138 12861 0 0) "layouts/" "../" "./")
+
+ ("/Users/admin/drive/projects/active_ruby_mundolingo/" (22138 12314 0 0) "../" "./")
+
+ ("/Users/admin/drive/backup/school/webbutveckling-3/" (22117 19834 0 0) "Vagrantfile" "src/" "README.pdf" "README.org" "provision.sh" "db_backup.sql" "Archive.zip" ".vagrant/" ".tex" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/admin/.emacs.d/lisp/" (22125 12005 0 0) "init-web-mode.el~" "init-web-mode.el" "init-utils.el" "init-style.el" "init-site-lisp.el" "init-shortcuts.el" "init-org.el" "init-misc.el" "init-linum-mode.el" "init-keybinding.el" "init-key-chord.el" "init-ido.el" "init-helm.el" "init-headerline.el" "init-gui-frames.el" "init-elpa.el" "init-css.el" "../" "./")
+
+ ("/Users/admin/drive/projects/" (22105 29351 0 0) "proposal_freedomain-radio.com/" "active_bitcoin.org/" ".DS_Store" "../" "./")
+
+ ("/Users/admin/drive/" (22137 22494 0 0) "Untitled document.gdoc" "Untitled document (8).gdoc" "Untitled document (7).gdoc" "Untitled document (6).gdoc" "Untitled document (5).gdoc" "Untitled document (4).gdoc" "Untitled document (3).gdoc" "Untitled document (2).gdoc" "Untitled document (1).gdoc" "projects/" "org/" "kultur.gdoc" "Kelly Starrett - Maintaining Your Body/" "Icon
+" "education/" "CreativeLive - Josh Kaufman - Personal MBA/" "backup/" ".DS_Store" "../" "./")
+
+ ("/Users/admin/" (22137 22445 0 0) "VirtualBox VMs/" "vagrant-local/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "iZombie.S02E07.720p.HDTV.X264-DIMENSION.mp4" "htdocs/" "Google Drive/" "drive/" "Downloads/" "Documents/" "Desktop/" "Applications/" ".zshrc.swp" ".zshrc" ".zsh_history" ".zsh-update" ".zlogin" ".zcompdump-Mateusz’s MacBook Pro-5.0.8" ".zcompdump-Mateusz’s MacBook Pro-5.0.5" ".vv-update" ".vv-config" ".viminfo" ".vim/" ".vagrant.d/" ".v8flags.4.5.103.33.admin.json" ".Trash/" ".subversion/" ".ssh/" ".smex-items" ".slocdata/" ".rvm/" ".profile" ".oh-my-zsh/" ".npm/" ".node-gyp/" ".mkshrc" ".local/" ".irb-history" ".gitconfig" ".gem/" ".emacs.d/" ".DS_Store" ".docker/" ".config/" ".codeintel/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_profile" ".bash_history" ".atom/" "../" "./")
 
  ("/Users/admin/drive/backup/school/webbutveckling-3/src/" (22114 60558 0 0) "style.css" "index.php" "include/" "function.php" "font/" "create.php" ".#function.php" ".#create.php" "../" "./")
-
- ("/Users/admin/" (22113 34133 0 0) "VirtualBox VMs/" "vagrant-local/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "iZombie.S02E07.720p.HDTV.X264-DIMENSION.mp4" "Google Drive/" "drive/" "Downloads/" "Documents/" "Desktop/" "Applications/" ".zshrc.swp" ".zshrc" ".zsh_history" ".zsh-update" ".zlogin" ".zcompdump-Mateusz’s MacBook Pro-5.0.8" ".zcompdump-Mateusz’s MacBook Pro-5.0.5" ".vv-update" ".vv-config" ".viminfo" ".vim/" ".vagrant.d/" ".v8flags.4.5.103.33.admin.json" ".Trash/" ".subversion/" ".ssh/" ".smex-items" ".slocdata/" ".rvm/" ".profile" ".oh-my-zsh/" ".npm/" ".node-gyp/" ".mkshrc" ".local/" ".irb-history" ".gitconfig" ".gem/" ".emacs.d/" ".DS_Store" ".config/" ".codeintel/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_profile" ".bash_history" ".atom/" "../" "./")
 
  ("/Users/admin/drive/projects/proposal_freedomain-radio.com/_includes/content/" (22109 17864 0 0) "book.scss" ".#book.scss" "../" "./")
 
@@ -48,9 +72,6 @@
  ("/Users/admin/drive/backup/school/" (22102 60962 0 0) "webbutveckling-3/" ".DS_Store" "../" "./")
 
  ("/Users/admin/drive/backup/" (22105 29541 0 0) "woff2/" "Untitled map.gmap" "untitled folder/" "school/" "projects/" "Project/" "preview/" "Namning css classes" "learn/" "lato/" "Ideas/" "Getting started" "font2.woff" "font.woff" "font.txt" "font" "experiment copy/" "experiment/" "dotfiles/" "docs/" "books/" "Black Lion/" ".DS_Store" "../" "./")
-
- ("/Users/admin/drive/" (22105 29541 0 0) "projects/" "org/" "Icon
-" "education/" "backup/" ".DS_Store" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

@@ -2,6 +2,9 @@
 ;;;; General ;;;;
 ;;;;;;;;;;;;;;;;;
 
+;; Improve copy dired
+(setq dired-dwim-target t)
+
 ;; disable backup
 (setq backup-inhibited t)
 
@@ -25,9 +28,6 @@
 (add-hook 'org-shiftdown-final-hook 'windmove-down)
 (add-hook 'org-shiftright-final-hook 'windmove-right)
 
-;; Turn on ido-mode
-  (require 'ido)
-  (ido-mode t)
 ;; set tab width
 (setq-default tab-width 2)
 
@@ -41,9 +41,10 @@
     (helm-build-dummy-source
         "Create file"
       :action (lambda (cand) (find-file cand))))
-
-
   (add-to-list 'helm-projectile-sources-list helm-source-file-not-found t))
+
+;; Set swtich project to dired
+(setq projectile-switch-project-action 'projectile-dired)
 
 
 (setq helm-split-window-in-side-p t)
@@ -159,6 +160,10 @@
 
 (define-key global-map (kbd "RET") 'newline-and-indent)
 
+;; Add yasnippet
+(require 'yasnippet)
+(yas-global-mode 1)
+
 ;; Active smart parh
 (require 'smartparens)
 (smartparens-global-mode t)
@@ -201,6 +206,33 @@
 ;;;;;;;;;;;;;;
 ;;;; misc ;;;;
 ;;;;;;;;;;;;;;
+
+;; Make files in dired mode
+(eval-after-load 'dired
+  '(progn
+     (define-key dired-mode-map (kbd "_") 'my-dired-create-file)
+     (defun my-dired-create-file (file)
+       "Create a file called FILE.
+If FILE already exists, signal an error."
+       (interactive
+        (list (read-file-name "Create file: " (dired-current-directory))))
+       (let* ((expanded (expand-file-name file))
+              (try expanded)
+              (dir (directory-file-name (file-name-directory expanded)))
+              new)
+         (if (file-exists-p expanded)
+             (error "Cannot create file %s: file exists" expanded))
+         ;; Find the topmost nonexistent parent dir (variable `new')
+         (while (and try (not (file-exists-p try)) (not (equal new try)))
+           (setq new try
+                 try (directory-file-name (file-name-directory try))))
+         (when (not (file-exists-p dir))
+           (make-directory dir t))
+         (write-region "" nil expanded t)
+         (when new
+           (dired-add-file new)
+           (dired-move-to-filename))))))
+
 
 ;; change to yes and no thing
 (fset 'yes-or-no-p 'y-or-n-p)
@@ -257,3 +289,38 @@
 (getenv "PATH")))
 
 (provide 'init-misc)
+
+;; test
+
+(require 'tramp)
+
+(custom-set-variables
+ '(tramp-default-method "ssh")          ; uses ControlMaster
+ '(comint-scroll-to-bottom-on-input t)  ; always insert at the bottom
+ '(comint-scroll-to-bottom-on-output nil) ; always add output at the bottom
+ '(comint-scroll-show-maximum-output t) ; scroll to show max possible output
+ ;; '(comint-completion-autolist t)     ; show completion list when ambiguous
+ '(comint-input-ignoredups t)           ; no duplicates in command history
+ '(comint-completion-addsuffix t)       ; insert space/slash after file completion
+ '(comint-buffer-maximum-size 20000)    ; max length of the buffer in lines
+ '(comint-prompt-read-only nil)         ; if this is t, it breaks shell-command
+ '(comint-get-old-input (lambda () "")) ; what to run when i press enter on a
+                                        ; line above the current prompt
+ '(comint-input-ring-size 5000)         ; max shell history size
+ '(protect-buffer-bury-p nil)
+)
+
+(setenv "PAGER" "cat")
+
+;; truncate buffers continuously
+(add-hook 'comint-output-filter-functions 'comint-truncate-buffer)
+ 
+; interpret and use ansi color codes in shell output windows
+(add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
+
+;; not sure why, but comint needs to be reloaded from the source (*not*
+;; compiled) elisp to make the above advise stick.
+(load "comint.el.gz")
+
+;; for other code, e.g. emacsclient in TRAMP ssh shells and automatically
+;; closing completions buffers, see the links above.

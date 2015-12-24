@@ -1,1 +1,1 @@
-("~/drive/backup/school/webbutveckling-3/" "~/.emacs.d/" "~/drive/projects/active_bitcoin.org/" "~/drive/projects/proposal_freedomain-radio.com/" "/usr/local/")
+("~/.emacs.d/" "~/drive/projects/active_ruby_mundolingo/test_app/" "~/drive/projects/proposal_freedomain-radio.com/" "~/drive/projects/active_ruby_mundolingo/mundolingo/" "~/drive/education/the-complate-ruby-on-rails-developer-course/section-3/test_app/" "~/drive/backup/school/webbutveckling-3/" "~/drive/education/pratice/" "~/drive/projects/active_bitcoin.org/" "/usr/local/")

@@ -45,3 +45,62 @@ git add .
 git pull
 git commit -am "commit"
 git pull
+vagrant up
+vagrant status
+vargrant destroy
+vagrant destroy
+cd ..
+ls
+cd webbutveckling-3/
+cd ..
+cd web-ajax/
+ls
+vagrantfile
+vagrant up
+cd ..
+cd webbutveckling-3/
+vagrant halt
+cd ..
+cd web-
+cd web-ajax/
+vagrant up
+cd ..
+cd webbutveckling-3/
+vagrant help
+vagrant suspend
+vagrant status
+cd ..
+cd web-ajax/
+vagrant up
+cd 
+cd..
+cd.
+cd drive/backup/school/
+ps -ef | grep ruby
+cd ..
+cd webbutveckling-3/
+vagrant destroy
+cd
+cd drive/backup/school/web-ajax/
+vagrant up
+mkdir src
+touch src/index.html
+echo >> hello world src/index.html
+ls
+src/index.html echo >> 'hello world'
+echo src/index.html >> 'hello world'
+ls
+rm hello
+rm hello\ world 
+ls
+cd src/
+ls
+vagrant destroy
+vagrant status
+vagrant up
+clear
+ls
+vagrant shh
+vagrant ssh
+Welcome to the Emacs shell
+dd
